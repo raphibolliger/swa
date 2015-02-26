@@ -7,7 +7,8 @@ package kw8.persondata.inheritance1;
  * @author Wolfgang Weck
  */
 public class Customer extends Person {
-	private int yearlyTurnover;
+
+    private int yearlyTurnover;
 
 	public Customer(String name, String firstName, String address, String town,
 			String postcode, int yearlyTurnover) {
